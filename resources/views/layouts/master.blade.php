@@ -4,47 +4,48 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Creative - Bootstrap 3 Responsive Admin Template">
-    <meta name="author" content="GeeksLabs">
-    <meta name="keyword" content="Creative, Dashboard, Admin, Template, Theme, Bootstrap, Responsive, Retina, Minimal">
+    <meta name="description" content="A starter project - uses angular as a frontend abd laravel as a backend technologies">
+    <meta name="author" content="Tamirat Fisseha">
     <link rel="shortcut icon" href="img/favicon.png">
 
     <title>Dashboard</title>
 
-    <!-- Bootstrap CSS -->
-    {!!Html::style('css/bootstrap.min.css')!!}
-    <!-- bootstrap theme -->
-    {!!Html::style('css/bootstrap-theme.css')!!}
-    <!--external css-->
-    <!-- font icon -->
-    {!!Html::style('css/elegant-icons-style.css')!!}
-    {!!Html::style('css/font-awesome.min.css')!!}
-    <!-- full calendar css-->
-    {!!Html::style('assets/fullcalendar/fullcalendar/bootstrap-fullcalendar.css')!!}
-    {!!Html::style('assets/fullcalendar/fullcalendar/fullcalendar.css')!!}
-    <!-- easy pie chart-->
-    {!!Html::style('assets/jquery-easy-pie-chart/jquery.easy-pie-chart.css')!!}
-    <!-- owl carousel -->
-    {!!Html::style('css/owl.carousel.css')!!}
-    {!!Html::style('css/jquery-jvectormap-1.2.2.css')!!}
-    <!-- Custom styles -->
-    {!!Html::style('css/fullcalendar.css')!!}
-    {!!Html::style('css/widgets.css')!!}
-    {!!Html::style('css/style.css')!!}
-    {!!Html::style('css/style-responsive.css')!!}
-    {!!Html::style('css/xcharts.min.css')!!}
-    {!!Html::style('css/jquery-ui-1.10.4.min.css')!!}
+    <link media="screen" rel="stylesheet" type="text/css" href="css/bootstrap.min.css" />
+    <link media="screen" rel="stylesheet" type="text/css" href="css/bootstrap-theme.css"/>
+    <link media="screen" rel="stylesheet" type="text/css" href="css/elegant-icons-style.css"/>
+    <link media="screen" rel="stylesheet" type="text/css" href="css/font-awesome.min.css"/>
+    <link media="screen" rel="stylesheet" type="text/css" href="assets/fullcalendar/fullcalendar/bootstrap-fullcalendar.css"/>
+    <link media="screen" rel="stylesheet" type="text/css" href="assets/fullcalendar/fullcalendar/fullcalendar.css"/>
+    <link media="screen" rel="stylesheet"  type="text/css" href="assets/jquery-easy-pie-chart/jquery.easy-pie-chart.css"/>
+    <link media="screen" rel="stylesheet"  type="text/css" href="css/owl.carousel.css"/>
+    <link media="screen" rel="stylesheet"  type="text/css" href="css/jquery-jvectormap-1.2.2.css"/>
+    <link media="screen" rel="stylesheet" type="text/css" href="css/fullcalendar.css"/>
+    <link media="screen" rel="stylesheet" type="text/css" href="css/widgets.css"/>
+    <link media="screen" rel="stylesheet" type="text/css" href="css/style.css"/>
+    <link media="screen" rel="stylesheet" type="text/css" href="css/style-responsive.css"/>
+    <link media="screen" rel="stylesheet" type="text/css" href="css/xcharts.min.css"/>
+    <link media="screen" rel="stylesheet" type="text/css" href="css/jquery-ui-1.10.4.min.css"/>
 
-    {!!Html::script('js/angular/angular.js')!!}
-    {!!Html::script('js/angular/angular-ui-router.js')!!}
-    {!!Html::script('js/angular/underscore.js')!!}
-    {!!Html::script('js/angular/restangular.js')!!}
-    {!!Html::script('js/angular/jquery.js')!!}
-    {!!Html::script('js/angular/ngstorage.js')!!}
-    {!!Html::script('js/angular/angular-jwt.js')!!}
-    {!!Html::script('app/api/api.base.js')!!}
-    {!!Html::script('app/api/api.users.js')!!}
-    {!!Html::script('app/app.js')!!}
+    <script type="application/javascript" src="js/angular/angular.js" ></script>
+
+    <script type="application/javascript" src="js/angular/angular-ui-router.js" ></script>
+
+    <script type="application/javascript" src="js/angular/underscore.js" ></script>
+
+    <script type="application/javascript" src="js/angular/restangular.js" ></script>
+
+    <script type="application/javascript" src="js/angular/jquery.js" ></script>
+
+    <script type="application/javascript" src="js/angular/ngstorage.js" ></script>
+
+    <script type="application/javascript" src="js/angular/angular-jwt.js" ></script>
+
+    <script type="application/javascript" src="app/api/api.base.js" ></script>
+
+    <script type="application/javascript" src="app/api/api.users.js" ></script>
+
+    <script type="application/javascript" src="app/app.js" ></script>
+
 </head>
 
     <body ng-controller="appCtrl">
@@ -77,38 +78,36 @@
         <h1> Hallo </h1>
     @endsection-->
 
-
-    <!-- javascripts -->
-    {!!Html::script('js/jquery.js')!!}
-    {!!Html::script('js/jquery-ui-1.10.4.min.js')!!}
-    {!!Html::script('js/jquery-1.8.3.min.js')!!}
-    {!!Html::script('js/jquery-ui-1.9.2.custom.min.js')!!}
-    {!!Html::script('js/bootstrap.min.js')!!}
-    {!!Html::script('js/jquery.scrollTo.min.js')!!}
-    {!!Html::script('js/jquery.nicescroll.js')!!}
-    {!!Html::script('assets/jquery-knob/js/jquery.knob.js')!!}
-    {!!Html::script('js/jquery.sparkline.js')!!}
-    {!!Html::script('assets/jquery-easy-pie-chart/jquery.easy-pie-chart.js')!!}
-    {!!Html::script('js/owl.carousel.js')!!}
-    {!!Html::script('js/fullcalendar.min.js')!!}
-    {!!Html::script('assets/fullcalendar/fullcalendar/fullcalendar.js')!!}
-    {!!Html::script('js/calendar-custom.js')!!}
-    {!!Html::script('js/jquery.rateit.min.js')!!}
-    {!!Html::script('js/jquery.customSelect.min.js')!!}
-    {!!Html::script('assets/chart-master/Chart.js')!!}
-    {!!Html::script('js/scripts.js')!!}
-    {!!Html::script('js/sparkline-chart.js')!!}
-    {!!Html::script('js/easy-pie-chart.js')!!}
-    {!!Html::script('js/jquery-jvectormap-1.2.2.min.js')!!}
-    {!!Html::script('js/jquery-jvectormap-world-mill-en.js')!!}
-    {!!Html::script('js/xcharts.min.js')!!}
-    {!!Html::script('js/jquery.autosize.min.js')!!}
-    {!!Html::script('js/jquery.placeholder.min.js')!!}
-    {!!Html::script('js/gdp-data.js')!!}
-    {!!Html::script('js/morris.min.js')!!}
-    {!!Html::script('js/sparklines.js')!!}
-    {!!Html::script('js/charts.js')!!}
-    {!!Html::script('js/jquery.slimscroll.min.js')!!}
+    <script type="application/javascript" src="js/jquery.js" ></script>
+    <script type="application/javascript" src="js/jquery-ui-1.10.4.min.js" ></script>
+    <script type="application/javascript" src="js/jquery-1.8.3.min.js" ></script>
+    <script type="application/javascript" src="js/jquery-ui-1.9.2.custom.min.js" ></script>
+    <script type="application/javascript" src="js/bootstrap.min.js" ></script>
+    <script type="application/javascript" src="js/jquery.scrollTo.min.js" ></script>
+    <script type="application/javascript" src="js/jquery.nicescroll.js" ></script>
+    <script type="application/javascript" src="assets/jquery-knob/js/jquery.knob.js" ></script>
+    <script type="application/javascript" src="js/jquery.sparkline.js" ></script>
+    <script type="application/javascript" src="assets/jquery-easy-pie-chart/jquery.easy-pie-chart.js" ></script>
+    <script type="application/javascript" src="js/owl.carousel.js" ></script>
+    <script type="application/javascript" src="js/fullcalendar.min.js" ></script>
+    <script type="application/javascript" src="assets/fullcalendar/fullcalendar/fullcalendar.js" ></script>
+    <script type="application/javascript" src="js/calendar-custom.js" ></script>
+    <script type="application/javascript" src="js/jquery.rateit.min.js" ></script>
+    <script type="application/javascript" src="js/jquery.customSelect.min.js" ></script>
+    <script type="application/javascript" src="assets/chart-master/Chart.js" ></script>
+    <script type="application/javascript" src="js/scripts.js" ></script>
+    <script type="application/javascript" src="js/sparkline-chart.js" ></script>
+    <script type="application/javascript" src="js/easy-pie-chart.js" ></script>
+    <script type="application/javascript" src="js/jquery-jvectormap-1.2.2.min.js" ></script>
+    <script type="application/javascript" src="js/jquery-jvectormap-world-mill-en.js" ></script>
+    <script type="application/javascript" src="js/xcharts.min.js" ></script>
+    <script type="application/javascript" src="js/jquery.autosize.min.js" ></script>
+    <script type="application/javascript" src="js/jquery.placeholder.min.js" ></script>
+    <script type="application/javascript" src="js/gdp-data.js" ></script>
+    <script type="application/javascript" src="js/morris.min.js" ></script>
+    <script type="application/javascript" src="js/sparklines.js" ></script>
+    <script type="application/javascript" src="js/charts.js" ></script>
+    <script type="application/javascript" src="js/jquery.slimscroll.min.js" ></script>
     <script>
         //knob
         $(function() {
