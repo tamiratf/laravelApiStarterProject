@@ -17,15 +17,16 @@
     <link href="css/style.css" rel="stylesheet">
     <link href="css/style-responsive.css" rel="stylesheet" />
 
-    {!!Html::script('js/angular/angular.js')!!}
-    {!!Html::script('js/angular/angular-ui-router.js')!!}
-    {!!Html::script('js/angular/underscore.js')!!}
-    {!!Html::script('js/angular/restangular.js')!!}
-    {!!Html::script('js/angular/jquery.js')!!}
-    {!!Html::script('js/angular/ngstorage.js')!!}
-    {!!Html::script('app/api/api.base.js')!!}
-    {!!Html::script('app/api/api.users.js')!!}
-    {!!Html::script('app/login.js')!!}
+    <script src="js/angular/angular.js"></script>
+    <script src="js/angular/angular-ui-router.js"></script>
+    <script src="js/angular/underscore.js"></script>
+    <script src="js/angular/restangular.js"></script>
+    <script src="js/angular/jquery.js"></script>
+    <script src="js/angular/ngstorage.js"></script>
+    <script src="app/api/api.base.js"></script>
+    <script src="app/api/api.users.js"></script>
+    <script src="app/login.js"></script>
+    <script src="app/app.js"></script>
 </head>
 
 <body class="login-img3-body" ng-app="fa-login">
