@@ -15,16 +15,22 @@ Route::get('/login', function () {
     return view('layouts.login');
 });
 
-
-Route::get('/', function () {
-    return view('layouts.master');
-});
-
 Route::group(array('prefix' => 'api'), function()
 {
     Route::group(array('prefix' => 'v1'), function()
     {
         Route::resource('users', 'UserController');
+        Route::resource('roles', 'RoleController');
+        Route::resource('permissions', 'PermissionController');
+        Route::resource('userroles', 'UserRoleController');
+        Route::resource('permissionroles', 'PermissionRoleController');
     });
 });
+
+
+Route::get('/', function () {
+    return view('layouts.master');
+});
+
+
 Route::post('authenticate', 'AuthenticateController@authenticate');

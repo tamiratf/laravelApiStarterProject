@@ -85,8 +85,8 @@ class FABaseRepository implements IFABaseRepositoryInterface{
     public function edit($input, $id)
     {
         try{
-            $result = $this->entity->find($id)->update($input);
-            return $this->response("Entity Successfully Updated!", $result,1, true);
+            $result = $this->entity->find($id)->update($input);            
+            return $this->response("Entity Successfully Updated!", null,1, true);
         }catch(QueryException $ex)
         {
             return $this->response($ex->getMessage(), [], -1, false);

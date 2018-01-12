@@ -10,7 +10,7 @@ namespace fa\model\repository;
 
 use fa\model\User;
 use fa\model\repository\contract\IUserRepositoryInterface;
-class UserRepository extends FABaseRepository implements IUserRepositoryInterface{
+class UserRepository extends FABaseRepository implements IUserRepositoryInterface {
 
     public function __construct(User $entity)
     {
